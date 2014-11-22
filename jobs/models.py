@@ -11,7 +11,6 @@ class job(models.Model):
     def __unicode__(self):
         return smart_unicode(self.job_title)
 
-
 class job_application(models.Model):
     job_app_id = models.IntegerField(primary_key=True)
     ja_user_id = models.IntegerField()

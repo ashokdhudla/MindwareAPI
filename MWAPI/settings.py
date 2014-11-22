@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'quiz',
     'promotions',
     'survey',
+    'mindwareuser'
 )
 
 MIDDLEWARE_CLASSES = (
